@@ -1,0 +1,15 @@
+[MainWindow]
+1920x1080 screen: XPosition=450
+1920x1080 screen: YPosition=182
+2 screens: Height=787
+2 screens: Width=1020
+2 screens: XPosition=687
+2 screens: YPosition=144
+DP-1 HDMI-1=DP-1
+DP1=DP1
+DP1 HDMI1=HDMI1
+DisplayPort-2=DisplayPort-2
+DisplayPort-2 HDMI-A-0=DisplayPort-2
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAMTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

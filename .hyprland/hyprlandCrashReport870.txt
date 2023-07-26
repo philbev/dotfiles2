@@ -1,0 +1,125 @@
+--------------------------------------------
+   Hyprland Crash Report
+--------------------------------------------
+Who tried dividing by zero?!
+
+Hyprland received signal 11 (Segmentation fault)
+
+Version: 5e577acf516b80173f695a458c2cc188a4d64560
+Tag: v0.27.0
+
+System info:
+	System name: Linux
+	Node name: daffy
+	Release: 6.4.3-arch1-1
+	Version: #1 SMP PREEMPT_DYNAMIC Tue, 11 Jul 2023 05:13:39 +0000
+
+GPU:
+	00:02.0 VGA compatible controller [0300]: Intel Corporation CometLake-S GT2 [UHD Graphics 630] [8086:9bc5] (rev 05) (prog-if 00 [VGA controller])
+
+
+os-release:
+	NAME="Arch Linux"
+	PRETTY_NAME="Arch Linux"
+	ID=arch
+	BUILD_ID=rolling
+	ANSI_COLOR="38;2;23;147;209"
+	HOME_URL="https://archlinux.org/"
+	DOCUMENTATION_URL="https://wiki.archlinux.org/"
+	SUPPORT_URL="https://bbs.archlinux.org/"
+	BUG_REPORT_URL="https://bugs.archlinux.org/"
+	PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+	LOGO=archlinux-logo
+	
+
+
+Backtrace:
+	#0 | Hyprland(_ZN13CrashReporter18createAndSaveCrashEi+0x458) [0x5614bd33a768]
+		??
+		??:0
+	#1 | Hyprland(_Z25handleUnrecoverableSignali+0x47) [0x5614bd2d5057]
+		??
+		??:0
+	#2 | /usr/lib/libc.so.6(+0x39ab0) [0x7fd03c962ab0]
+		??
+		??:0
+	#3 | Hyprland(_Z6wlTickPv+0x2b) [0x5614bd37635b]
+		??
+		??:0
+	#4 | /usr/lib/libwayland-server.so.0(wl_event_loop_dispatch+0x2e7) [0x7fd03d2ecd27]
+		??
+		??:0
+	#5 | /usr/lib/libwlroots.so.12032(+0x4c988) [0x7fd03d380988]
+		??
+		??:0
+	#6 | /usr/lib/libwlroots.so.12032(wlr_backend_autocreate+0x4d2) [0x7fd03d386582]
+		??
+		??:0
+	#7 | Hyprland(_ZN11CCompositor10initServerEv+0xf3) [0x5614bd2dd063]
+		??
+		??:0
+	#8 | Hyprland(main+0x47e) [0x5614bd2c406e]
+		??
+		??:0
+	#9 | /usr/lib/libc.so.6(+0x23850) [0x7fd03c94c850]
+		??
+		??:0
+	#10 | /usr/lib/libc.so.6(__libc_start_main+0x8a) [0x7fd03c94c90a]
+		??
+		??:0
+	#11 | Hyprland(_start+0x25) [0x5614bd2d1e95]
+		??
+		??:0
+
+
+Log tail:
+[LOG] Node name: daffy
+[LOG] Release: 6.4.3-arch1-1
+[LOG] Version: #1 SMP PREEMPT_DYNAMIC Tue, 11 Jul 2023 05:13:39 +0000
+
+
+[LOG] GPU information:
+00:02.0 VGA compatible controller [0300]: Intel Corporation CometLake-S GT2 [UHD Graphics 630] [8086:9bc5] (rev 05) (prog-if 00 [VGA controller])
+
+
+[LOG] os-release:
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://archlinux.org/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://bugs.archlinux.org/"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=archlinux-logo
+
+[LOG] ========================
+
+
+
+[INFO] If you are crashing, or encounter any bugs, please consult https://wiki.hyprland.org/Crashes-and-Bugs/
+
+
+[LOG] 
+Current splash: aezakmi, aezakmi, aezakmi, aezakmi, aezakmi, aezakmi, aezakmi!
+
+
+[LOG] Creating the HookSystem!
+[LOG] Creating the KeybindManager!
+[LOG] Creating the AnimationManager!
+[LOG] Created a bezier curve, baked 255 points, mem usage: 4.08kB, time to bake: 15.17µs. Estimated average calc time: 0.04µs.
+[LOG] Creating the ConfigManager!
+[LOG] Creating the CHyprError!
+[LOG]  [hookSystem] New hook event registered: focusedMon
+[LOG]  [hookSystem] New hook event registered: preRender
+[LOG] Creating the LayoutManager!
+[LOG] Reloading the config!
+[LOG] Created a bezier curve, baked 255 points, mem usage: 4.08kB, time to bake: 8.87µs. Estimated average calc time: 0.04µs.
+[LOG] Using config: /home/phil/.config/hypr/hyprland.conf
+[LOG] Created a bezier curve, baked 255 points, mem usage: 4.08kB, time to bake: 8.77µs. Estimated average calc time: 0.03µs.
+[LOG] Registered dynamic var "$mainMod" -> SUPER
+[LOG] Overriding XWayland scale with 0.00
+[LOG] Disabling stdout logs! Check the log for further logs.
+[LOG]  [hookSystem] New hook event registered: configReloaded

@@ -1,0 +1,322 @@
+#+SEQ_TODO: TODO(t) APPOINTMENT(a) BIRTHDAY(b) EVENT(e) PENDING(p) REMINDER(r) | DONE(d) CANCELLED(c)
+#+TAGS: health dentist chemist home ropewalk birthday personal opticians on_line chore
+#+STARTUP: overview
+
+* CHEATSHEET
+** Archiving
+To archive 'C-c C-x C-a' ('org-archive-subtree-default')
+
+
+* HEALTH                                                        :health: 
+:DETAILS: 
+  NHS Number: 460 339 9170 
+  Hospital Number: K1124417 
+:END: 
+** REPEAT EVENTS 
+*** TODO - Change domes on hearing aids. 
+SCHEDULED: <2023-09-17 Sun ++3m> 
+:PROPERTIES: 
+:LAST_REPEAT: [2023-06-17 Sat 07:26] 
+:END: 
+- State "CANCELLED"  from "TODO"       [2023-06-17 Sat 07:26] 
+- State "CANCELLED"  from "TODO"       [2023-03-17 Fri 08:40] 
+- State "DONE"       from "TODO"       [2023-01-11 Wed 17:36] 
+:LOGBOOK: 
+- State "CANCELLED"  from "TODO"       [2022-06-19 Sun 07:17] 
+- State "DONE"       from "TODO"       [2022-03-17 Thu 07:42] 
+- State "DONE"       from "TODO"       [2021-12-17 Fri 07:05] 
+- State "DONE"       from "TODO"       [2021-09-18 Sat 06:53] 
+- State "DONE"       from "TODO"       [2021-08-15 Sun 07:35] 
+- State "DONE"       from "TODO"       [2021-03-17 Wed 08:20] 
+- State "DONE"       from "TODO"       [2020-12-17 Thu 08:23] 
+- State "DONE"       from "TODO"       [2020-09-17 Thu 12:53] 
+- State "DONE"       from "TODO"       [2020-06-17 Wed 09:00] 
+- State "DONE"       from "TODO"       [2020-03-17 Tue 08:53] 
+- State "DONE"       from "TODO"       [2019-12-17 Tue 08:00] 
+- State "DONE"       from "TODO"       [2019-09-18 Wed 09:54] 
+- State "DONE"       from "TODO"       [2019-06-17 Mon 09:00] 
+- State "DONE"       from "TODO"       [2019-03-17 Sun 08:07] 
+- State "DONE"       from "TODO"       [2018-12-17 Mon 15:18] 
+:END: 
+*** TODO - Change tubes on hearing aids. 
+SCHEDULED: <2023-12-17 Sun ++6m> :PROPERTIES: 
+:LAST_REPEAT: [2023-06-17 Sat 07:26] 
+:END: 
+- State "CANCELLED"  from "TODO"       [2023-06-17 Sat 07:26] 
+- State "DONE"       from "TODO"       [2023-01-11 Wed 17:37] 
+:LOGBOOK: 
+- State "CANCELLED"  from "TODO"       [2022-06-19 Sun 07:18] 
+- State "DONE"       from "TODO"       [2021-12-17 Fri 07:05] 
+- State "DONE"       from "TODO"       [2021-08-15 Sun 07:35] 
+- State "DONE"       from "TODO"       [2020-12-17 Thu 08:23] 
+- State "DONE"       from "TODO"       [2020-06-17 Wed 09:00] 
+- State "DONE"       from "TODO"       [2019-12-17 Tue 08:00] 
+- State "DONE"       from "TODO"       [2019-06-17 Mon 09:00] 
+- State "DONE"       from "TODO"       [2018-12-17 Mon 15:19] 
+:END: 
+*** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
+*** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
+*** TODO - Clean hearing aids 
+SCHEDULED: <2023-07-30 Sun +1w>
+:PROPERTIES: 
+:LAST_REPEAT: [2023-07-23 Sun 07:40]
+:END: 
+- State "CANCELLED"  from "TODO"       [2023-07-23 Sun 07:40]
+- State "CANCELLED"  from "TODO"       [2023-07-16 Sun 07:53]
+- State "CANCELLED"  from "TODO"       [2023-07-09 Sun 07:05]
+- State "CANCELLED"  from "TODO"       [2023-07-02 Sun 07:39]
+- State "DONE"       from "TODO"       [2023-06-27 Tue 11:15]
+- State "CANCELLED"  from "TODO"       [2023-06-18 Sun 07:38] 
+- State "DONE"       from "TODO"       [2023-06-11 Sun 07:26] 
+- State "CANCELLED"  from "TODO"       [2023-06-04 Sun 07:26] 
+- State "DONE"       from "TODO"       [2023-05-28 Sun 07:23] 
+- State "DONE"       from "TODO"       [2023-05-21 Sun 09:07] 
+- State "DONE"       from "TODO"       [2023-05-14 Sun 07:20] 
+- State "DONE"       from "TODO"       [2023-05-07 Sun 09:32] 
+- State "CANCELLED"  from "TODO"       [2023-04-30 Sun 07:24] 
+- State "DONE"       from "TODO"       [2023-04-23 Sun 09:01] 
+- State "CANCELLED"  from "TODO"       [2023-04-17 Mon 07:42] 
+- State "CANCELLED"  from "TODO"       [2023-04-10 Mon 13:13] 
+- State "CANCELLED"  from "TODO"       [2023-04-03 Mon 08:22] 
+- State "CANCELLED"  from "TODO"       [2023-03-26 Sun 11:42] 
+- State "CANCELLED"  from "TODO"       [2023-03-20 Mon 07:28] 
+- State "CANCELLED"  from "TODO"       [2023-03-14 Tue 09:15] 
+- State "CANCELLED"  from "TODO"       [2023-03-05 Sun 13:26] 
+- State "CANCELLED"  from "TODO"       [2023-02-26 Sun 12:41] 
+- State "CANCELLED"  from "TODO"       [2023-02-19 Sun 17:31] 
+- State "CANCELLED"  from "TODO"       [2023-02-12 Sun 10:30] 
+*** TODO - Eye pad treatment. 
+SCHEDULED: <2023-07-25 Tue +1w>
+:PROPERTIES: 
+:LAST_REPEAT: [2023-07-19 Wed 07:15]
+:END: 
+- State "DONE"       from "TODO"       [2023-07-19 Wed 07:15]
+- State "DONE"       from "TODO"       [2023-07-12 Wed 07:07]
+- State "DONE"       from "TODO"       [2023-07-04 Tue 09:31]
+- State "DONE"       from "TODO"       [2023-06-27 Tue 11:12]
+- State "DONE"       from "TODO"       [2023-06-21 Wed 07:05] 
+- State "DONE"       from "TODO"       [2023-06-14 Wed 09:41] 
+- State "DONE"       from "TODO"       [2023-06-06 Tue 14:42] 
+** ONE-OFF EVENTS 
+*** DONE - Macular Dept at Queens Medical Centre SCHEDULED: <2023-03-07 Tue 10:15> 
+*** DONE - Macular Dept at Queen's Medical. SCHEDULED: <2023-06-01 Thu 09:00> 
+*** DONE - Measure up for elasticated stockings. SCHEDULED: <2023-06-13 Tue 16:40>
+* PERSONAL :PERSONAL                                            :personal:
+** REPEAT EVENTS
+*** TODO - Water spider plant (Mr. Johnstone :-))
+SCHEDULED: <2023-07-31 Mon +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-07-17 Mon 07:17]
+:END:
+- State "DONE"       from "TODO"       [2023-07-17 Mon 07:17]
+- State "DONE"       from "TODO"       [2023-07-17 Mon 07:17]
+- State "DONE"       from "TODO"       [2023-07-10 Mon 07:43]
+- State "DONE"       from "TODO"       [2023-07-03 Mon 07:45]
+- State "DONE"       from "TODO"       [2023-06-19 Mon 07:29]
+- State "CANCELLED"  from "TODO"       [2023-06-12 Mon 07:31]
+- State "DONE"       from "TODO"       [2023-06-05 Mon 06:41]
+- State "DONE"       from "TODO"       [2023-05-29 Mon 07:21]
+- State "DONE"       from "TODO"       [2023-05-22 Mon 08:15]
+- State "CANCELLED"  from "TODO"       [2023-05-15 Mon 12:17]
+- State "DONE"       from "TODO"       [2023-05-08 Mon 08:11]
+- State "DONE"       from "TODO"       [2023-05-01 Mon 07:38]
+- State "DONE"       from "TODO"       [2023-04-24 Mon 07:40]
+- State "CANCELLED"  from "TODO"       [2023-04-17 Mon 07:42]
+- State "DONE"       from "TODO"       [2023-04-10 Mon 13:13]
+- State "CANCELLED"  from "TODO"       [2023-04-03 Mon 08:22]
+- State "CANCELLED"  from "TODO"       [2023-03-27 Mon 13:03]
+- State "DONE"       from "TODO"       [2023-03-20 Mon 07:29]
+- State "DONE"       from "TODO"       [2023-03-14 Tue 09:15]
+- State "CANCELLED"  from "TODO"       [2023-03-06 Mon 11:12]
+- State "DONE"       from "TODO"       [2023-02-28 Tue 10:23]
+- State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
+- State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
+*** TODO - Recharge toothbrush
+SCHEDULED: <2023-07-31 Mon +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-07-24 Mon 07:32]
+:END:
+- State "DONE"       from "TODO"       [2023-07-24 Mon 07:32]
+- State "DONE"       from "TODO"       [2023-07-17 Mon 07:17]
+- State "DONE"       from "TODO"       [2023-07-10 Mon 07:43]
+- State "DONE"       from "TODO"       [2023-07-03 Mon 07:45]
+- State "DONE"       from "TODO"       [2023-06-27 Tue 11:12]
+- State "DONE"       from "TODO"       [2023-06-12 Mon 07:31]
+- State "DONE"       from "TODO"       [2023-06-12 Mon 07:31]
+- State "DONE"       from "TODO"       [2023-06-05 Mon 06:41]
+- State "DONE"       from "TODO"       [2023-05-29 Mon 07:21]
+- State "DONE"       from "TODO"       [2023-05-22 Mon 08:15]
+- State "DONE"       from "TODO"       [2023-05-15 Mon 12:17]
+- State "DONE"       from "TODO"       [2023-05-08 Mon 08:11]
+- State "DONE"       from "TODO"       [2023-05-01 Mon 07:38]
+- State "DONE"       from "TODO"       [2023-04-24 Mon 07:40]
+- State "DONE"       from "TODO"       [2023-04-17 Mon 07:42]
+- State "DONE"       from "TODO"       [2023-04-10 Mon 13:14]
+- State "DONE"       from "TODO"       [2023-04-03 Mon 08:22]
+- State "DONE"       from "TODO"       [2023-03-27 Mon 13:04]
+- State "DONE"       from "TODO"       [2023-03-20 Mon 07:29]
+- State "DONE"       from "TODO"       [2023-03-14 Tue 09:15]
+- State "DONE"       from "TODO"       [2023-03-06 Mon 11:12]
+- State "DONE"       from "TODO"       [2023-02-28 Tue 10:24]
+- State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
+- State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
+*** TODO - Grey bin collection tomorrow
+    SCHEDULED: <2023-08-06 Sun ++2w>
+                                                                                          :PROPERTIES:
+                                                                                          :LAST_REPEAT: [2023-07-23 Sun 07:40]
+                                                                                                 :END:
+                                                                                          - State "DONE"       from "TODO"       [2023-07-23 Sun 07:40]
+                                                                                          - State "DONE"       from "TODO"       [2023-07-09 Sun 07:05]
+                                                                                          - State "DONE"       from "TODO"       [2023-06-27 Tue 11:11]
+    - State "DONE"       from "TODO"       [2023-06-11 Sun 07:26]
+    - State "DONE"       from "TODO"       [2023-05-28 Sun 07:23]
+    - State "DONE"       from "TODO"       [2023-05-14 Sun 07:20]
+    - State "DONE"       from "TODO"       [2023-04-30 Sun 07:25]
+    - State "DONE"       from "TODO"       [2023-04-17 Mon 07:42]
+    - State "DONE"       from "TODO"       [2023-04-03 Mon 08:22]
+    - State "DONE"       from "TODO"       [2023-03-20 Mon 07:29]
+    - State "DONE"       from "TODO"       [2023-03-05 Sun 13:26]
+    - State "DONE"       from "TODO"       [2023-02-19 Sun 17:31]
+    - State "DONE"       from "TODO"       [2023-02-07 Tue 16:11]
+    - State "DONE"       from "REMINDER"   [2023-01-22 Sun 12:22]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:37]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2022-09-04 Sun 08:25]
+    - State "DONE"       from "TODO"       [2022-08-22 Mon 08:08]
+    - State "DONE"       from "TODO"       [2022-08-11 Thu 12:03]
+    - State "DONE"       from "TODO"       [2022-07-24 Sun 07:18]
+    - State "DONE"       from "TODO"       [2022-07-11 Mon 07:14]
+    - State "DONE"       from "TODO"       [2022-06-26 Sun 07:38]
+    - State "DONE"       from "TODO"       [2022-06-12 Sun 06:28]
+    - State "DONE"       from "TODO"       [2022-05-29 Sun 08:14]
+    - State "DONE"       from "TODO"       [2022-05-15 Sun 07:40]
+    - State "DONE"       from "TODO"       [2022-05-01 Sun 07:08]
+    - State "DONE"       from "TODO"       [2022-04-17 Sun 07:20]
+    - State "DONE"       from "TODO"       [2022-04-03 Sun 06:54]
+    - State "DONE"       from "TODO"       [2022-03-20 Sun 07:10]
+    - State "DONE"       from "TODO"       [2022-03-06 Sun 07:48]
+    - State "DONE"       from "TODO"       [2022-02-20 Sun 07:05]
+    - State "DONE"       from "TODO"       [2022-02-06 Sun 08:02]
+                                                                                                 :END:
+
+*** TODO - Blue bin collection day tomorrow.
+SCHEDULED: <2023-07-30 Sun ++2w>a
+                                                                                          :PROPERTIES:
+                                                                                          :LAST_REPEAT: [2023-07-16 Sun 07:53]
+                                                                                                 :END:
+                                                                                          - State "DONE"       from "TODO"       [2023-07-16 Sun 07:53]
+                                                                                          - State "CANCELLED"  from "TODO"       [2023-07-02 Sun 07:40]
+    - State "DONE"       from "TODO"       [2023-06-18 Sun 07:38]
+    - State "DONE"       from "TODO"       [2023-06-04 Sun 07:26]
+    - State "DONE"       from "TODO"       [2023-05-21 Sun 09:07]
+    - State "DONE"       from "TODO"       [2023-05-07 Sun 09:32]
+    - State "DONE"       from "TODO"       [2023-04-23 Sun 09:01]
+    - State "DONE"       from "TODO"       [2023-04-10 Mon 13:13]
+    - State "DONE"       from "TODO"       [2023-03-26 Sun 11:42]
+    - State "DONE"       from "TODO"       [2023-03-14 Tue 09:15]
+    - State "DONE"       from "TODO"       [2023-02-26 Sun 12:41]
+    - State "DONE"       from "TODO"       [2023-02-12 Sun 10:30]
+    - State "DONE"       from "REMINDER"   [2023-01-29 Sun 10:10]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:33]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:32]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2022-08-28 Sun 07:13]
+    - State "DONE"       from "TODO"       [2022-08-14 Sun 07:25]
+    - State "DONE"       from "TODO"       [2022-07-31 Sun 07:16]
+    - State "DONE"       from "TODO"       [2022-07-18 Mon 07:43]
+    - State "DONE"       from "TODO"       [2022-07-03 Sun 06:59]
+    - State "DONE"       from "TODO"       [2022-06-19 Sun 07:18]
+    - State "DONE"       from "TODO"       [2022-06-05 Sun 07:05]
+    - State "DONE"       from "TODO"       [2022-05-25 Wed 13:53]
+    - State "DONE"       from "TODO"       [2022-05-08 Sun 07:04]
+    - State "DONE"       from "TODO"       [2022-04-24 Sun 06:59]
+    - State "DONE"       from "TODO"       [2022-04-10 Sun 06:55]
+    - State "DONE"       from "TODO"       [2022-03-27 Sun 08:01]
+    - State "DONE"       from "TODO"       [2022-03-13 Sun 07:12]
+    - State "DONE"       from "TODO"       [2022-02-27 Sun 08:20]
+                                                                                                 :END:
+
+*** BIRTHDAY - Pat's birthday.a
+    SCHEDULED: <2023-08-08 Tue ++1y>
+                                                                                          :PROPERTIES:
+    :LAST_REPEAT: [2022-08-11 Thu 12:03]
+                                                                                                 :END:
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "BIRTHDAY"   [2022-08-11 Thu 12:03]
+    - State "DONE"       from "BIRTHDAY"   [2021-08-08 Sun 08:17]
+    - State "DONE"       from "BIRTHDAY"   [2020-08-09 Sun 07:48]
+                                                                                                 :END:
+*** BIRTHDAY - Maggie's birthday.
+    SCHEDULED: <2023-10-18 Wed ++1y>
+                                                                                          :PROPERTIES:
+    :LAST_REPEAT: [2023-01-11 Wed 17:37]
+                                                                                                 :END:
+    - State "DONE"       from "BIRTHDAY"   [2023-01-11 Wed 17:37]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-10-18 Mon 07:09]
+    - State "DONE"       from "BIRTHDAY"   [2020-10-18 Sun 07:45]
+                                                                                                 :END:
+*** BIRTHDAY - My birthday :-)
+    SCHEDULED: <2023-10-18 Wed ++1y>
+                                                                                          :PROPERTIES:
+    :LAST_REPEAT: [2023-01-11 Wed 17:37]
+                                                                                                 :END:
+    - State "DONE"       from "BIRTHDAY"   [2023-01-11 Wed 17:37]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-10-18 Mon 07:09]
+    - State "DONE"       from "BIRTHDAY"   [2020-10-18 Sun 07:45]
+                                                                                                 :END:
+*** BIRTHDAY - Alun's birthday.
+    SCHEDULED: <2023-08-21 Mon ++1y>
+                                                                                          :PROPERTIES:
+    :LAST_REPEAT: [2022-08-22 Mon 08:08]
+                                                                                                 :END:
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
+    - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
+                                                                                                 :END:
+** ONE-OFF EVENTS                                                                            :one:off:
+
+*** DONE - Engineer to repair intercomm.
+SCHEDULED: <2023-03-14 Tue 08:30-12:30>
+*** CANCELLED - Metropolitan to fix fan in bathroom
+SCHEDULED: <2023-03-28 Tue 13:00-17:00>
+*** DONE - Council elections.
+SCHEDULED: <2023-05-04 Thu>
+*** DONE - Annual service of boiler
+SCHEDULED: <2023-04-25 Tue 12:00-17:00>
+*** DONE - Gas quality inspection.
+SCHEDULED: <2023-06-15 Thu 08:00-12:00>
+* Boxley Drive Move                                             :Boxley:
+** DONE Take documents to Emma Sheffield at the Community Centre.
+   SCHEDULED: <2017-08-16 Wed 11:00>
+
+*** Proof of ID (driving license, bus pass or passport)
+*** Proof of income (printots of statements)
+*** Letter with address
+** DONE Order removal boxes.
+** DONE Order packing tape, bubblewrap and sticky labels.
+** DONE Inform utilities of change of address.
+** DONE Ashley to survey flat.
+   SCHEDULED: <2017-08-17 Thu 10:00>
+
+   
+
+** DONE Aaron services to uncap gas and test boiler.
+   SCHEDULED: <2017-08-23 Wed 08:00-12:00>
+
+** DONE Order Gas cooker from AO
+** DONE Delivery and installation of gas cooker.
+   SCHEDULED: <2017-08-27 Sun>
+
+   
+
+** DONE Visit flat and Ikea with Duncan and Jane
+   SCHEDULED: <2017-08-29 Tue>
+
+** DONE Moving to Boxley Drive :-)
+   SCHEDULED: <2017-09-13 Wed>
+
+** DONE Plusnet to connect landline an internet. Engineer to visit.
+   SCHEDULED: <2017-09-14 Thu>
+

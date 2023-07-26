@@ -1,0 +1,43 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jun 10 13:06:33 2023
+;; Desktop file format version 208
+;; Emacs version 28.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25732 26441 346773 583000) (desktop . "208") "phil@daffy" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-JB-JetBrainsMono Nerd Font Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#eeeeec") (background-color . "#2e3436") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "white") (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (sticky) (environment) (last-focus-update . t) (frameset--id . "B2B5-B1A3-1CBC-7585") (frameset--mini t . t) (height . 41) (width . 92) (modeline . t) (unsplittable) (left . 963) (top . 48) (icon-name) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 96) (min-pixel-width . 100) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 24) (min-pixel-width-safe . 20)) leaf (pixel-width . 941) (pixel-height . 965) (total-width . 94) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "todo.org" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 364) (start . 1)) (prev-buffers ("mylife.org" 1 190) ("*Ibuffer*" 1 149) ("todo.org" 1 364) ("*scratch*" 1 17))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("evil-coll" 0 9 (isearch-case-fold-search t isearch-regexp-function nil)) #("org-supers" 0 10 (isearch-case-fold-search t isearch-regexp-function nil)) #("linum-r" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("which-key" 0 9 (isearch-regexp-function nil isearch-case-fold-search t)) #("evil" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("evil mode" 0 9 (isearch-case-fold-search t isearch-regexp-function nil)) #("use-pack" 0 8 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq regexp-search-ring '(#("evil" 0 4 (isearch-case-fold-search t)) #("evil-or" 0 7 (isearch-case-fold-search t)) #("wor" 0 3 (isearch-case-fold-search t)) #("which" 0 5 (isearch-case-fold-search t))))
+(setq register-alist nil)
+(setq file-name-history '("~/" "~/mylife.org" "~/todo.org" "~/mylife.org" "~/todo.org" "~/.emacs.d/" "~/todo.org" "~/mylife.org" "~/todo.org" "~/mylife.org" "~/todo.org" "~/mylife.org" "~/todo.org" "~/mylife.org" "~/.emacs.d/init.el" "~/mylife.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/phil/todo.org"
+  "todo.org"
+  'org-mode
+  '(visual-line-mode goto-address-mode which-key-mode)
+  364
+  '(364 nil)
+  nil
+  nil
+  '((buffer-display-time 25732 26441 11119 309000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (364))))
+
+(desktop-create-buffer 208
+  "/home/phil/mylife.org"
+  "mylife.org"
+  'org-mode
+  '(visual-line-mode goto-address-mode which-key-mode)
+  190
+  '(190 nil)
+  nil
+  nil
+  '((buffer-display-time 25732 26429 543038 877000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (190))))
+

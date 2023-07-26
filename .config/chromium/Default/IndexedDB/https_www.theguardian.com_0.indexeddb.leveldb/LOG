@@ -1,0 +1,3 @@
+2023/07/04-07:00:21.720 7ee Reusing MANIFEST /home/phil/.config/chromium/Default/IndexedDB/https_www.theguardian.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/04-07:00:21.720 7ee Recovering log #3
+2023/07/04-07:00:21.721 7ee Reusing old log /home/phil/.config/chromium/Default/IndexedDB/https_www.theguardian.com_0.indexeddb.leveldb/000003.log 

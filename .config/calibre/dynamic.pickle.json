@@ -1,0 +1,23 @@
+{
+  "add books dialog dir": "/usr/local/ebooks",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "6.21"
+    ]
+  },
+  "recursive book import root dir dialog": "/usr/local/ebooks",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle_pw",
+  "welcome_wizard_was_run": true
+}

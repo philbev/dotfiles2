@@ -1,0 +1,55 @@
+2 screens: Height=1016
+2 screens: Width=1892
+2 screens: XPosition=14
+2 screens: YPosition=50
+DP-1 HDMI-1=DP-1
+State=AAAA/wAAAAD9AAAAAAAAB2QAAAOfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+
+[KHighscore_Hard]
+0_LastPlayer=phil
+10_Name=phil
+10_Score=251
+10_Time=04:11
+1_Name=phil
+1_Score=199
+1_Time=03:19
+2_Name=phil
+2_Score=202
+2_Time=03:22
+3_Name=phil
+3_Score=215
+3_Time=03:35
+4_Name=phil
+4_Score=219
+4_Time=03:39
+5_Name=phil
+5_Score=235
+5_Time=03:55
+6_Name=phil
+6_Score=237
+6_Time=03:57
+7_Name=phil
+7_Score=238
+7_Time=03:58
+8_Name=phil
+8_Score=240
+8_Time=04:00
+9_Name=phil
+9_Score=246
+9_Time=04:06
+
+[KgDifficulty]
+Level=Hard
+
+[KgTheme]
+Theme=themes/default.desktop
+
+[MainWindow]
+2 screens: Height=1376
+2 screens: Width=2532
+2 screens: XPosition=14
+2 screens: YPosition=50
+DP-1 HDMI-1=DP-1
+DP1 HDMI1=HDMI1
+State=AAAA/wAAAAD9AAAAAAAACeQAAAUHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
