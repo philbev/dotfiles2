@@ -104,3 +104,24 @@ webengineurlinterceptoradblockrc
 xfce4
 xsettingsd
 yay
+
+dconf/user
+gtk-3.0/settings.ini
+gtk-4.0/settings.ini
+gtkrc
+gtkrc-2.0
+kalendaracrc
+kconf_updaterc
+kde.org/UserFeedback.org.kde.dolphin.conf
+kde.org/UserFeedback.org.kde.plasmashell.conf
+kglobalshortcutsrc
+kminesrc
+kwinrc
+libvirt/qemu/nvram/archlinux-July-2023_VARS.fd
+libvirt/qemu/nvram/debian12_VARS.fd
+libvirt/qemu/nvram/fedora38_VARS.fd
+plasma-org.kde.plasma.desktop-appletsrc
+session/kwin_saved at previous logout_
+xsettingsd/xsettingsd.conf
+#.gitignore
+#Documents/org_docs/mylife.org

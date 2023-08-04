@@ -100,3 +100,6 @@ Videos
 .MakeMKV/
 .dvdcss/
 Qsync/
+#.gitignore
+*~
+scummvm
