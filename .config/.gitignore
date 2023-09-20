@@ -55,7 +55,7 @@ kminesrc
 kmixctrlrc
 kmixrc
 konquerorrc
-#konsolerc
+konsolerc
 konsolesshconfig
 krunnerrc
 kscreenlockerrc
@@ -123,5 +123,7 @@ libvirt/qemu/nvram/fedora38_VARS.fd
 plasma-org.kde.plasma.desktop-appletsrc
 session/kwin_saved at previous logout_
 xsettingsd/xsettingsd.conf
+Code - OSS/
+konq_history
 #.gitignore
 #Documents/org_docs/mylife.org
