@@ -272,6 +272,8 @@ filextype {.blend}
 filextype {*.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm},<image/*>
         \ {View in sxiv}
         \ sxiv %f,
+        \ {View in feh}
+        \ feh %f,
         \ {View in gpicview}
         \ gpicview %c,
         \ {View in shotwell}

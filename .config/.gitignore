@@ -68,7 +68,7 @@ kwinrulesrc
 kxkbrc
 lazy
 libaccounts-glib
-libreoffice
+libreoffice/
 libvirt
 mimeapps.list
 #neofetch

@@ -9,7 +9,7 @@ if wezterm.config_builder then
 end
 
 config.default_prog = {'/usr/bin/fish'}
-config.font_size = 16
+config.font_size = 18
 config.font =
 wezterm.font('JetBrains Mono Nerd Font', { weight = 'Regular', italic = false })
 -- config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' } -- <= >= != == -> <-

@@ -1,4 +1,4 @@
-function la --wraps='exa -lagh --icons --git --color=always --group-directories-first | less' --description 'alias la=exa -lagh --icons --git --color=always --group-directories-first | less'
-  exa -lagh --icons --git --color=always --group-directories-first $argv | less
+function la --wraps='eza -lagh --icons --git --color=always --group-directories-first | less' --description 'alias la=eza -lagh --icons --git --color=always --group-directories-first | less'
+  eza -lagh --icons --git --color=always --group-directories-first | less $argv
         
 end

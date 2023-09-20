@@ -8,7 +8,7 @@
 ## SOURCED FILES
 # Load all my functions from $HOME/.functions.sh
 if [[ -f $HOME/.functions.sh ]]; then
-    . "$HOME"/.functions.sh
+    source "$HOME"/.functions.sh
 fi
 
 if [[ -f /usr/share/bash-completion/bash_completion ]]; then
@@ -17,12 +17,12 @@ fi
 
 # Give some colour to man pages.
 if [[ -f ~/.less_colours.sh     ]]; then
-        source ~/.less_colours.sh
+        source "$HOME"/.less_colours.sh
 fi
 
 # Define some variables to be used for colours
 if [[ -f ~/.colors      ]]; then
-        source ~/.colors
+        source "$HOME"/.colors
 fi
 
 
@@ -102,7 +102,7 @@ function cd() {
     if [ $# -eq 0 ]; then
         new_directory=${HOME};
     fi;
-    builtin cd "${new_directory}" && . ~/.bashrc
+    builtin cd "${new_directory}" && . "$HOME"/.bashrc
 }
 
 ### dh ()
@@ -180,7 +180,7 @@ mydate () {
     date
 }
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -f ~/.fzf.bash ] && source "$HOME"/.fzf.bash
 
 alias luamake=/home/phil/lua-language-server/3rd/luamake/luamake
 
